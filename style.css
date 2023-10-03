@@ -72,7 +72,23 @@ p {
 
 .header {
     display: grid;
-    grid-template: 1fr 1fr / 2fr 1fr;
+    grid-template: auto auto / 2fr 1fr;
+    padding: 20px 20px 10px 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.search input {
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e2e2e2;
 }
 
 .user-info {
