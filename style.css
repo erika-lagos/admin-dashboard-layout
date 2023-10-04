@@ -176,7 +176,7 @@ p {
     background-color: white;
     padding: 24px 24px 16px 24px;
     font-size: 11pt;
-    color: rgb(85, 85, 85);
+    color: #555555;
     box-shadow: 0px 5px 5px #d4d4d4;
     border-radius: 10px;
     border-left: solid 10px #3cc0f4;
@@ -198,6 +198,38 @@ p {
     border: none;
     background-color: white;
     margin-left: 10px;
+}
+
+.announcements > p {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 18px;
+}
+
+.announcement-container {
+    display: grid;
+    gap: 16px;
+    background-color: white;
+    color: #555555;
+    font-size: 9pt;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #d4d4d4;
+}
+
+.announcement-card > .title {
+    font-weight: bold;
+    color: black;
+}
+
+.announcement-card {
+    padding-bottom: 24px;
+    border-bottom: solid 1px #d4d4d4;
+}
+
+.announcement-card:last-child {
+    padding-bottom: 0;
+    border: none;
 }
 
 .trending-card {
